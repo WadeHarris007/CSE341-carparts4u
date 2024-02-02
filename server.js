@@ -8,8 +8,8 @@ const mongodb = require('./data/database');
 
 const app = express();
 
-//setting port to 6000
-const port = process.env.PORT || 6000;
+//setting port to 3000
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use((req, res, next) => {
